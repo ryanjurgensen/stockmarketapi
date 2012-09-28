@@ -25,3 +25,4 @@ def pull_stocks():
 	deferred.defer(pull_stocks, _countdown=3)
 	logging.info('Processing stocks done.')
 	return output
+	
